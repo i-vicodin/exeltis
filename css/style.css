@@ -31,6 +31,7 @@ body {
   position: sticky;
   top: 0;
   padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   z-index: 1000;
 }
 .logoContainer {
@@ -286,4 +287,36 @@ body {
 .btn-secondary:hover {
   background: rgba(207, 207, 207, 1);
   color: rgba(0, 0, 0, 1);
+}
+.addressBookContainer {
+  background: rgba(245, 245, 245, 1);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.addressBookItem {
+  background: rgba(255, 255, 255, 1);
+  padding: 2rem 0;
+  margin: 2rem 0;
+}
+.addressBookItem img {
+  width: 100%;
+  height: auto;
+}
+.addressBookItem h3 {
+  color: rgba(108, 166, 193, 1);
+  font-family: "Figtree", sans-serif;
+  font-size: 1.5rem;
+}
+.addressBookItem p {
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-family: "Figtree", sans-serif;
+}
+.addressBookItem p:first-child {
+  margin-bottom: 1rem;
+}
+.headerDirectory {
+  background: url(../img/background.png) no-repeat top center fixed;
+  background-size: 100%;
 }
